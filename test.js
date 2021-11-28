@@ -18,13 +18,5 @@ test.describe('automationpractice test', () => {
         await expect(page.locator('a[class="login"]')).toBeVisible();
     });
 
-    test('Logout Test action by API', async ({ page }) => {
-        axios({
-            method: 'post',
-            url: '/account/logout/'
-        });
-        //await expect(page.locator('a[class="logout"]')).toBeHidden();
-        //await expect(page.locator('a[class="login"]')).toBeVisible();
-    });
 
 });
