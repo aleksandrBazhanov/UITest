@@ -9,7 +9,6 @@ test.describe('automationpractice test', () => {
         await page.fill('input[id="email"]', "god_s@mail.ru");
         await page.fill('input[id="passwd"]', "TestTest");
         await page.click('button[id="SubmitLogin"]');
-        //await page.goto('automationpractice.com');
     });
 
     test('Logout Test action by UI', async ({ page }) => {
