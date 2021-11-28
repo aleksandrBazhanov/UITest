@@ -1,5 +1,4 @@
 const { test, expect } = require('@playwright/test');
-const axios = require('axios');
 
 
 test.describe('automationpractice test', () => {
